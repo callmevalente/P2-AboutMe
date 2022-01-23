@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "starWars";
+    src: url(/fonts/SfDistantGalaxyOutlineItalic-4yA4.ttf);
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    background-image: url(/images/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgba(245, 245, 245, 0.726);
+}
+
+.mainPage {
+    width: 1000px;
+    background-color: #2e4558;
+    padding-bottom: 2rem;
+    box-shadow: 5px 5px 5px #a8c2c2;
+}
+
+img {
+    float: right;
+    padding-top: 1rem;
+    padding-right: 1rem;
+}
+
+h1 {
+    font-family: "starWars", Helvetica, sans-serif;
+    font-size: 50px;
+    padding: 1rem;
+    text-align: center;
+    color: #e89e10;
+}
+
+h2 {
+    font-size: 25px;
+    text-decoration: underline;
+    padding: 0.2em;
+}
+
+.sections {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.favoriteBooks h2 {
+    width: 320px;
+}
+
+a {
+    color: #54ad7a;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.schedule {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 600px;
+    text-align: center;
+    height: 300px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+th {
+    height: 30px;
+}
+
+.studyHome {
+    background-color: blue;
+}
+
+.cs2550 {
+    background-color: orange;
+}
+
+.dinner {
+    background-color: brown;
+}
+
+.relax {
+    background-color: teal;
+}
+
+.backHome {
+    background-color: purple;
+}
